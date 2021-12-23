@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
+    "postinstall": "npx jetify",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -15,10 +16,13 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
+    "react-native-gesture-handler": "^2.1.0",
+    "react-native-reanimated": "^2.3.1",
     "react-native-web": "0.17.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "jetifier": "^2.0.0"
   },
   "private": true
 }
